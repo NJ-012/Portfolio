@@ -1,0 +1,13 @@
+/* app/global.css */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased min-h-screen overflow-x-hidden;
+  }
+}
+
+/* Custom layout utility configurations */
+.tracking-tightest {
+  letter-spacing: -0.05em;
+}

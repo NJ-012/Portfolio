@@ -1,0 +1,22 @@
+/* components/sections/HeroSection.module.css */
+
+.heroWrapper {
+  position: relative;
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Subtle static layout guide line */
+.heroWrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(to right, rgba(31, 41, 55, 0.4), transparent);
+}
