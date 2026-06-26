@@ -125,7 +125,7 @@ export const ContactSubsystem: React.FC = () => {
             
             <LinkButton
               label="[ GET_RESUME.PDF ]"
-              href="/resume.pdf"
+              href="/nj.pdf"
               telemetry="SYS_STATUS: ACTIVE // METRIC: RESUME_CV // PING: 18ms"
               download="Niyati_Joshi_Resume.pdf"
               isDownload={true}

@@ -163,7 +163,7 @@ export const AsciiPortrait: React.FC = () => {
         <div className="flex flex-col space-y-3.5">
           {/* Download Resume Action */}
           <a
-            href="/resume.pdf"
+            href="/nj.pdf"
             download="Niyati_Joshi_Resume.pdf"
             className="w-full text-center border border-purple-500/30 hover:border-cyan-400 text-purple-400 hover:text-cyan-300 transition-all duration-300 shadow-[0_0_10px_rgba(0,240,255,0.03)] hover:shadow-[0_0_12px_rgba(0,240,255,0.2)] py-2 rounded uppercase font-bold cursor-pointer"
           >
